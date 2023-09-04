@@ -58,7 +58,9 @@ namespace Laços_de_Repetição
                 int escolha_usuario;
 
                 Console.Write("Digite o número que deseja saber a tabuada: ");
+                Console.ForegroundColor = ConsoleColor.Red;
                 escolha_usuario= int.Parse(Console.ReadLine());
+                Console.ForegroundColor = ConsoleColor.White;
 
                 while ( contador <= 10)
                 {
