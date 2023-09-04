@@ -23,11 +23,12 @@ namespace Laços_de_Repetição
             Console.ForegroundColor = ConsoleColor.Red;
             menu = int.Parse(Console.ReadLine());
             Console.ForegroundColor = ConsoleColor.White;
+            
+            Console.Clear();
 
             if ( menu == 1 ) 
             {
 
-                Console.Clear();
                 Console.WriteLine("1 - Contagem Crescente \n");
 
                 int contador = 1;
@@ -51,7 +52,6 @@ namespace Laços_de_Repetição
             if ( menu == 2 )
             {
 
-                Console.Clear();
                 Console.WriteLine("2 - Tabuada\n");
 
                 int contador = 1;
@@ -79,7 +79,6 @@ namespace Laços_de_Repetição
             if( menu == 3 )
             {
 
-                Console.Clear();
                 Console.WriteLine("3 - Soma dos números\n");
 
                 int contador = 1;
@@ -112,7 +111,6 @@ namespace Laços_de_Repetição
             if ( menu == 4 )
             {
 
-                Console.Clear();
                 Console.WriteLine("4 - Advinhe o número\n");
 
                 Random numero = new Random();
