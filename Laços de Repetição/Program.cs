@@ -139,7 +139,7 @@ namespace Laços_de_Repetição
                     else if (chute > valor)
                     {
 
-                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.ForegroundColor = ConsoleColor.DarkCyan;
                         Console.WriteLine("O seu chute está acima");
 
                     }
