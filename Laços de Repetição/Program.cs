@@ -19,7 +19,7 @@ namespace Laços_de_Repetição
             Console.WriteLine("2 - Tabuada");
             Console.WriteLine("3 - Soma de números");
             Console.WriteLine("4 - Advinhe o número");
-            Console.Write("Selecione a função desejada: ");
+            Console.Write("\nSelecione a função desejada: ");
             Console.ForegroundColor = ConsoleColor.Red;
             menu = int.Parse(Console.ReadLine());
             Console.ForegroundColor = ConsoleColor.White;
@@ -82,8 +82,7 @@ namespace Laços_de_Repetição
 
                 int contador = 1;
                 int escolha_usuario;
-                int somar;
-                int total = 0;
+                int soma_total = 0;
 
                 Console.Write("Escolha quantos números desejas somar: ");
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -95,15 +94,14 @@ namespace Laços_de_Repetição
 
                     Console.Write("Digite o " + contador + "º número: ");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    somar = int.Parse(Console.ReadLine());
+                    soma_total += int.Parse(Console.ReadLine());
                     Console.ForegroundColor = ConsoleColor.White;
-                    total = total + somar;
                     contador++;
 
                 }
                 Console.Write("O valor total deu: ");
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine(total);
+                Console.WriteLine(soma_total);
 
 
 
@@ -126,7 +124,9 @@ namespace Laços_de_Repetição
 
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("Chute um número: ");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     chute = int.Parse(Console.ReadLine());
+                    Console.ForegroundColor = ConsoleColor.White;
                     tentativas++;
 
                     if (chute < valor)
