@@ -22,7 +22,7 @@ namespace Laços_de_Repetição
             Console.Write("\nSelecione a função desejada: ");
             Console.ForegroundColor = ConsoleColor.Red;
             menu = int.Parse(Console.ReadLine());
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
             
             Console.Clear();
 
@@ -60,7 +60,7 @@ namespace Laços_de_Repetição
                 Console.Write("Digite o número que deseja saber a tabuada: ");
                 Console.ForegroundColor = ConsoleColor.Red;
                 escolha_usuario= int.Parse(Console.ReadLine());
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ResetColor();
 
                 while ( contador <= 10)
                 {
@@ -88,7 +88,7 @@ namespace Laços_de_Repetição
                 Console.Write("Escolha quantos números desejas somar: ");
                 Console.ForegroundColor = ConsoleColor.Red;
                 escolha_usuario = int.Parse(Console.ReadLine());
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ResetColor();
 
                 while (contador <= escolha_usuario)
                 {
@@ -96,7 +96,7 @@ namespace Laços_de_Repetição
                     Console.Write("Digite o " + contador + "º número: ");
                     Console.ForegroundColor = ConsoleColor.Red;
                     soma_total += int.Parse(Console.ReadLine());
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     contador++;
 
                 }
@@ -122,11 +122,11 @@ namespace Laços_de_Repetição
                 while ( chute != valor ) 
                 {
 
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     Console.Write("Chute um número: ");
                     Console.ForegroundColor = ConsoleColor.Red;
                     chute = int.Parse(Console.ReadLine());
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ResetColor();
                     tentativas++;
 
                     if (chute < valor)
