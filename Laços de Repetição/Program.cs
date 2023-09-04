@@ -19,7 +19,7 @@ namespace Laços_de_Repetição
             Console.WriteLine("2 - Tabuada");
             Console.WriteLine("3 - Soma de números");
             Console.WriteLine("4 - Advinhe o número");
-            Console.Write("Selecione a operação desejada: ");
+            Console.Write("Selecione a função desejada: ");
             Console.ForegroundColor = ConsoleColor.Red;
             menu = int.Parse(Console.ReadLine());
             Console.ForegroundColor = ConsoleColor.White;
