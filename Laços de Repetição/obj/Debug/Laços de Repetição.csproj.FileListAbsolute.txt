@@ -1,0 +1,7 @@
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\bin\Debug\Laços de Repetição.exe.config
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\bin\Debug\Laços de Repetição.exe
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\bin\Debug\Laços de Repetição.pdb
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\obj\Debug\Laços de Repetição.csproj.AssemblyReference.cache
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\obj\Debug\Laços de Repetição.csproj.CoreCompileInputs.cache
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\obj\Debug\Laços de Repetição.exe
+C:\Users\erick.vgusson\source\repos\Nova pasta\Laços de Repetição\Laços de Repetição\obj\Debug\Laços de Repetição.pdb
